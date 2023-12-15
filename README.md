@@ -23,6 +23,7 @@
 - 2.В NetworkCore - создаем реализацию самого объекта.
 - 3.В ApiManager - делаем инициализацию моделей запроса.
 - 4.В классе JsonPlaceHolderTest - используем (GET, PUT, POST, DELETE) + queryParams method.
+- 5.В SearchTestPositive - делаем тест где вызовем "search" из GooglePlacesModel и туда опрокидываем значения для ключей HashMap
 
 ## Additional:
 
