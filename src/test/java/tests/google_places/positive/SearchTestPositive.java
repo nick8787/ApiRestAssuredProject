@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 
 import static constants.Constants.API_TOKEN;
 
-/* класс с методом по поиску картинок
+/* класс с методом по поиску текста
    пишем тут тест, где вызовем "search" из GooglePlacesModel
-   и туда прокинем значения ддя ключей HashMap*/
+   и туда опрокидываем значения для ключей HashMap */
 public class SearchTestPositive extends BaseTest {
 
     @Test(description = "search some object", dataProvider = "searchText")
@@ -29,6 +29,5 @@ public class SearchTestPositive extends BaseTest {
         return new Object[][]{
                 {API_TOKEN, "new york", "textquery"}
         };
-
     }
 }
