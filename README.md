@@ -30,4 +30,8 @@
 - My profile on GitHub - [тыць](https://github.com/nick8787)
 - My tg - [тыць](https://t.me/nick8787)
 - My website about testing - [тыць](https://www.testing87.online/)
+<<<<<<< HEAD
   ![Иллюстрация к проекту](https://www.testing87.online/img/graphics/about/testing87logohome.jpeg)
+=======
+  ![Иллюстрация к проекту](https://www.testing87.online/img/graphics/about/testing87logohome.jpeg)
+>>>>>>> c2d4a23da9e756a271c22a63b88f772dabdbf03c
