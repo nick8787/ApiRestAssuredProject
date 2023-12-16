@@ -1,15 +1,15 @@
-<h1 align="center"> Автоматизация API: REST Assured + Java, проект с Google API </h1>
+<h1 align="center"> Automation API: REST Assured + Java, project with Google API </h1>
 
 
 
 ## Summary:
 
-- 1.Создаем модель GooglePlace и описываем модели для объекта в "GooglePlacesModel"
-- 2.Делаем инициализаций моделей запроса в "ApiManager"
-- 3.Делаем реализацию HTTP-запроса в "NetworkCore"
-- 4.Делаем тесты по поиску картинок GooglePlace в "SearchTestPositive"
-- 5.Создаем DataProvider для теста в "SearchTestPositive"
-- 6.В resources - userData - добавляем API-key из Google Cloud (Credential)
+- 1.Create a GooglePlace model and describe the models for the object in "GooglePlacesModel"
+- 2.Initialization of request models in "ApiManager"
+- 3.Initialization HTTP-requests in "NetworkCore"
+- 4.Doing GooglePlace text search tests in "SearchTestPositive"
+- 5.Create DataProvider for test in "SearchTestPositive"
+- 6.In resources - userData - add API-key from Google Cloud (Credential)
 
 ## I've applied:
 
@@ -19,19 +19,15 @@
 
 ## Process creating:
 
-- 1.Сначала создаем объект в GooglePlacesModel и описываем его методом.
-- 2.В NetworkCore - создаем реализацию самого объекта.
-- 3.В ApiManager - делаем инициализацию моделей запроса.
-- 4.В классе JsonPlaceHolderTest - используем (GET, PUT, POST, DELETE) + queryParams method.
-- 5.В SearchTestPositive - делаем тест где вызовем "search" из GooglePlacesModel и туда опрокидываем значения для ключей HashMap
+- 1.First, create an object in GooglePlacesModel and describe it with a method.
+- 2.In NetworkCore - create an implementation of the object itself.
+- 3.In ApiManager - do the initialization of the query models.
+- 4.In class JsonPlaceHolderTest - use (GET, PUT, POST, DELETE) + queryParams method.
+- 5.In SearchTestPositive - make a test where we call "search" from GooglePlacesModel and there we roll over the values for HashMap keys.
 
 ## Additional:
 
-- My profile on GitHub - [тыць](https://github.com/nick8787)
-- My tg - [тыць](https://t.me/nick8787)
-- My website about testing - [тыць](https://www.testing87.online/)
-<<<<<<< HEAD
+- My profile on GitHub - [click](https://github.com/nick8787)
+- My tg - [click](https://t.me/nick8787)
+- My website about testing - [click](https://www.testing87.online/)
   ![Иллюстрация к проекту](https://www.testing87.online/img/graphics/about/testing87logohome.jpeg)
-=======
-  ![Иллюстрация к проекту](https://www.testing87.online/img/graphics/about/testing87logohome.jpeg)
->>>>>>> c2d4a23da9e756a271c22a63b88f772dabdbf03c
